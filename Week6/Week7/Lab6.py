@@ -26,4 +26,6 @@ def audit_text_stream (flagged_word):
     return counter
 print(audit_text_stream("Ust"))
 '''
-
+file = open("textfile.txt","r")
+content = file.read()
+print(content)
