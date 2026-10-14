@@ -1,4 +1,0 @@
-hgdfhgf
-kjhkjhj,bg
-khgvjhvmh
-x = input("Enter a new name: ")
