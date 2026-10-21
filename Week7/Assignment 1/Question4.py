@@ -1,4 +1,4 @@
-def calculate_playroll():
+def calculate_payroll():
     total_payroll = 0.0
     wage = float(input("Enter hourly wage (negative to quit): "))
     while wage >= 0:
@@ -13,6 +13,6 @@ def calculate_playroll():
         print("Payroll exceeded the budget.")
     return total_payroll
 def main():
-    total_payroll = calculate_playroll()
+    total_payroll = calculate_payroll()
     print("Total payroll: $", round(total_payroll,2))
 main()
